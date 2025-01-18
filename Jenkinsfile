@@ -1,6 +1,6 @@
 node ('dev') {
     stage('Git') {
-        git branch: 'main', url: 'https://github.com/vamsibyramala/pet_shop.git'
+        git branch: 'main', url: 'https://github.com/DHANASRI-SUNKARI/pet_shop.git'
     }
     stage('Build') {
         sh 'mvn clean package'
